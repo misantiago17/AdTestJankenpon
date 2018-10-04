@@ -33,15 +33,15 @@ public class AdsHandler : MonoBehaviour {
  
  			if (SceneManager.GetActiveScene().name == "MenuScene"){
 				// Real Deal: ca-app-pub-5614812286442730/3805414968
-				adUnitId = "ca-app-pub-3940256099942544/6300978111"; 
+				adUnitId = "ca-app-pub-5614812286442730/3805414968"; 
 
 			} else if (SceneManager.GetActiveScene().name == "PlayerDefinition"){
 				// Real Deal: ca-app-pub-5614812286442730/8335972327
-				adUnitId = "ca-app-pub-3940256099942544/6300978111"; 
+				adUnitId = "ca-app-pub-5614812286442730/8335972327"; 
 
 			} else if (SceneManager.GetActiveScene().name == "GameScene"){
 				// Real Deal: ca-app-pub-5614812286442730/2345279041
-				adUnitId = "ca-app-pub-3940256099942544/6300978111"; 
+				adUnitId = "ca-app-pub-5614812286442730/2345279041"; 
 			}
 
 			// falta o add do botão com clique
@@ -52,15 +52,15 @@ public class AdsHandler : MonoBehaviour {
 
 			if (SceneManager.GetActiveScene().name == "MenuScene"){
 				// Real Deal: ca-app-pub-5614812286442730/8826926914
-				adUnitId = "ca-app-pub-3940256099942544/2934735716"; 
+				adUnitId = "ca-app-pub-5614812286442730/8826926914"; 
 
 			} else if (SceneManager.GetActiveScene().name == "PlayerDefinition"){
 				// Real Deal: ca-app-pub-5614812286442730/1642286054
-				adUnitId = "ca-app-pub-3940256099942544/2934735716"; 
+				adUnitId = "ca-app-pub-5614812286442730/1642286054"; 
 
 			} else if (SceneManager.GetActiveScene().name == "GameScene"){
 				// Real Deal: ca-app-pub-5614812286442730/6703041040
-				adUnitId = "ca-app-pub-3940256099942544/2934735716"; 
+				adUnitId = "ca-app-pub-5614812286442730/6703041040"; 
 			}
 
 			// falta o add do botão com clique
@@ -70,7 +70,7 @@ public class AdsHandler : MonoBehaviour {
 		#endif
 
 		// Create a 320x50 banner at the bottom of the screen.
-        BannerView bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
+        BannerView bannerView = new BannerView(adUnitId, AdSize.SmartBanner, AdPosition.Bottom);
 
 		// Called when an ad request has successfully loaded.
         bannerView.OnAdLoaded += HandleOnAdLoaded;
